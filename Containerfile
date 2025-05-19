@@ -13,4 +13,4 @@ RUN apt-get update \
 
 RUN useradd -u 1000 pgloader
 USER 1000
-ENTRYPOINT [/usr/bin/pgloader]
+ENTRYPOINT ["/usr/bin/pgloader"]
